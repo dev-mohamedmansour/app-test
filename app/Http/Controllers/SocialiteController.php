@@ -14,7 +14,8 @@
 			 public function redirect()
 			 {
 					$user = Socialite::driver('github')->user();
+					
 					dd($user);
 			 }
-			 
-	  }
+	 
+	 }
